@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "author": "dmackca <contact@dmack.ca>",
+  "homepage": "https://github.com/dmackca/kung-fu-id-generator#readme",
   "license": "MIT",
   "description": "Randomly generates human-readable ID strings with kung-fu words",
   "files": [
@@ -23,5 +24,6 @@
     "build": "rollup -c",
     "lint": "eslint ."
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": "git@github.com:dmackca/kung-fu-id-generator.git"
 }
