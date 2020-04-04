@@ -1,0 +1,16 @@
+export default [
+    'chamber',
+    'clan',
+    'club',
+    'den',
+    'dojo',
+    'house',
+    'league',
+    'school',
+    'stance',
+    'story',
+    'style',
+    'technique',
+    'temple',
+    'way',
+];

@@ -1,0 +1,19 @@
+{
+  "name": "kung-fu-id-generator",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "author": "Duncan MacKenzie <dmack.ca@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-foundryspatial": "2.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "rollup": "^2.3.2"
+  },
+  "scripts": {
+    "build": "rollup --config",
+    "lint": "eslint ."
+  }
+}
