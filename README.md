@@ -11,9 +11,9 @@ It uses lists of 49 adjectives, 95, and 14 grouping nouns, which provides **9,38
 Run the function in Node or in the browser:
 
 ```javascript
-import generateId from 'kung-fu-id-generator';
+import kfId from 'kung-fu-id-generator';
 
-generateId(); // "jumping-legendary-centipede-technique"
+kfId(); // "jumping-legendary-centipede-technique"
 
-generateId(); // "bloody-warrior-monkey-style"
+kfId(); // "bloody-warrior-monkey-style"
 ```

@@ -22,8 +22,6 @@ if (combinedArray.length !== combinedSet.size) {
     console.log('no duplicates!');
 }
 
-console.log(adjectives.length);
-
 //
 // update readme
 //

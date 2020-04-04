@@ -1,6 +1,6 @@
 {
   "name": "kung-fu-id-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "author": "dmackca <contact@dmack.ca>",
   "homepage": "https://github.com/dmackca/kung-fu-id-generator#readme",

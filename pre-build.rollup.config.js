@@ -7,7 +7,6 @@ export default {
     output: {
         file: 'dist/pre-build.js',
         format: 'cjs',
-        name: 'MyBundle',
     },
     plugins: [
         resolve(),

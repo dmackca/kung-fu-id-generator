@@ -6,7 +6,7 @@ export default {
     output: {
         file: 'dist/index.js',
         format: 'umd',
-        name: 'MyBundle',
+        name: 'kfId',
     },
     plugins: [
         resolve(),
