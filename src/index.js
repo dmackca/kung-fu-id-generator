@@ -8,10 +8,19 @@ const adjNouns = [
     ...nouns,
 ];
 
+/**
+ * return a random element from an array
+ * @param  {Array} arr input array
+ * @return {*}         a random element from the input array
+ */
 function sample(arr) {
     return arr[Math.floor((Math.random() * arr.length))];
 }
 
+/**
+ * return a randomly generated ID string
+ * @return {String} randomly-generated ID
+ */
 export default function getId() {
     // format: "adjective-adjective|noun-noun-grouping"
     return `${sample(adjectives)}-${sample(adjNouns)}-${sample(nouns)}-${sample(groupings)}`;
