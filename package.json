@@ -13,7 +13,8 @@
     "rollup": "^2.3.2"
   },
   "scripts": {
-    "build": "rollup --config",
+    "build:bundle": "rollup -c pre-build.rollup.config.js && node dist/pre-build && rollup -c",
+    "build": "rollup -c",
     "lint": "eslint ."
   }
 }
