@@ -4,6 +4,10 @@
   "main": "dist/index.js",
   "author": "dmackca <contact@dmack.ca>",
   "license": "MIT",
+  "description": "Randomly generates human-readable ID strings with kung-fu words",
+  "files": [
+    "dist/index.js"
+  ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1",
     "eslint": "^6.2.1",
@@ -18,5 +22,6 @@
     "build:bundle": "yarn run lint && rollup -c pre-build.rollup.config.js && node dist/pre-build && rollup -c",
     "build": "rollup -c",
     "lint": "eslint ."
-  }
+  },
+  "dependencies": {}
 }
