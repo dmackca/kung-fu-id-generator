@@ -4,7 +4,7 @@ Randomly generates human-readable ID strings with kung-fu words
 
 This function returns a string in the format `<adjective>-<adjective|noun>-<noun>-<grouping noun>`, where all of the words are somewhat related to classic kung-fu movies. For example, `fearless-unstoppable-lotus-temple`
 
-It uses lists of 49 adjectives, 95, and 14 grouping nouns, which provides **9,384,480 possible combinations**.
+It uses lists of 49 adjectives, 95 nouns, and 14 grouping nouns, which provides **9,384,480 possible combinations**.
 
 ## Usage
 
